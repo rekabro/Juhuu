@@ -38,18 +38,34 @@ color: #002B3E;
 
 .quote-section {
     font-family: 'Dancing Script', cursive;
-    font-size: 1.5em;
 }
 
 .quote {
+    font-size: 1.7em;
     margin-bottom: 0.5em;
 }
 
 .quote-author {
-    font-size: 0.6em;
+    font-size: 0.8em;
     margin: 0 auto;
 }
 
 .footer-email {
     padding-right: 60em;
 }
+
+.footer-email-link, .GDPR {
+    text-decoration: none;
+    color: #00475D;
+    font-weight: 600;
+}
+
+.footer-email-link {
+    font-style: italic;
+}
+
+.footer-email-link:hover {
+    text-decoration: underline;
+    color: #002B3E;
+}
+
