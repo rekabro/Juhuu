@@ -1,0 +1,55 @@
+#logo {
+    width: 10em;
+}
+
+.email-icon {
+position: fixed;
+left: 8em;
+top: 2em;
+font-size: 1.6em;
+color: #002B3E;
+}
+
+.email-icon:hover {
+    color: #00475D;
+}
+
+.language-select {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 10em;
+    top: 2em;
+    font-weight: 700;
+}
+
+.language-select p {
+    padding: 0.3em;
+}
+
+.active-language {
+    background-color: rgba(241, 231, 231, 0.8);
+}
+
+.nav-section ul {
+    list-style-type: none;
+    font-weight: 700;
+}
+
+.quote-section {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+
+.quote {
+    margin-bottom: 0.5em;
+}
+
+.quote-author {
+    font-size: 0.6em;
+    margin: 0 auto;
+}
+
+.footer-email {
+    padding-right: 60em;
+}
