@@ -1,3 +1,5 @@
+/* breakpoints to use:  (480px, 768px, 992px és 1200px) */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -22,6 +24,7 @@
 
 .img-section {
     display: flex;
+    justify-items: center;
     margin: 0 auto;
     width: 33%;
 }
@@ -40,4 +43,59 @@
     display: flex;
     margin: 1em auto;
     flex-direction: row;
+}
+
+@media only screen and (max-width: 1200px) {
+    .img-section {
+        width: 45%;
+}
+}
+
+@media only screen and (max-width: 992px) {
+    .img-section {
+        width: 55%;
+}
+    .nav-section ul li {
+        display: inline;
+        margin: 0 1em;
+}
+    .nav-section ul {
+        margin-left: -2em;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+    .img-section {
+        width: 68%;
+}
+    .nav-section ul li {
+        display: inline;
+        margin: 0 0.5em;
+}
+}
+
+@media only screen and (max-width: 480px) {
+
+    .logo-section {
+        margin: 0 auto;
+    }
+
+   /*  .nav-section {
+        display: none;
+    }
+    */
+
+    .img-section {
+        width: 90%;
+    }
+
+    .footer-section {
+        flex-direction: column;
+    }
+
+    .nav-section {
+        line-height: 1.8em;
+        text-align: center;
+    }
 }

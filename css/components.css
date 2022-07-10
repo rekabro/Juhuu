@@ -4,7 +4,7 @@
 
 .email-icon {
 position: fixed;
-left: 8em;
+left: 5em;
 top: 2em;
 font-size: 1.6em;
 color: #002B3E;
@@ -18,7 +18,7 @@ color: #002B3E;
     display: flex;
     flex-direction: row;
     position: fixed;
-    right: 10em;
+    right: 8em;
     top: 2em;
     font-weight: 700;
 }
@@ -51,7 +51,13 @@ color: #002B3E;
 }
 
 .footer-email {
-    padding-right: 60em;
+    position: fixed;
+    left: 3em;
+}
+
+.GDPR {
+    position: fixed;
+    right: 3em;
 }
 
 .footer-email-link, .GDPR {
@@ -69,3 +75,63 @@ color: #002B3E;
     color: #002B3E;
 }
 
+@media only screen and (max-width: 992px) {
+    .quote {
+        font-size: 1.5em;
+    }
+    .language-select {
+        right: 6em;
+        font-size: 0.8em;
+        top: 3em;
+    }
+    .email-icon {
+        left: 4em;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+    .quote {
+        font-size: 1.3em;
+    }
+    .language-select {
+        right: 3em;
+    }
+    .email-icon {
+        left: 3em;
+        }
+
+    .footer-section {
+        margin-top: 3em;
+    }
+}
+    
+@media only screen and (max-width: 480px) {
+    .email-icon {
+        left: 1.5em;
+        top: 1.5em;
+        font-size: 1.3em;
+    }
+    .language-select {
+        right: 3em;
+        top: 2.7em;
+        font-size: 0.6em;
+    }
+    #logo {
+        width: 8em;
+    }
+
+    .quote {
+        font-size: 1em;
+        text-align: center;
+        margin: 1em 1em;
+    }
+
+    .footer-email-link {
+        font-size: 0.7em;
+    }
+
+    .GDPR {
+        font-size: 0.7em;
+    }
+    
+}
