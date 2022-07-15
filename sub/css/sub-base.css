@@ -1,0 +1,83 @@
+
+* { 
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: radial-gradient(farthest-corner at 0px 0px,
+    rgb(243, 248, 194) 10%, #93e3fc 100%);
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2em;
+    margin-top: 3em;
+    text-align: center;
+}
+
+.icon {
+    font-size: 2em;
+    padding: 1em 2em;
+    position: fixed;
+    left: 0;
+}
+
+.arrow {
+    font-size: 0.5em;
+    padding-right: 0.2em;
+}
+
+.icon:hover, .arrow:hover {
+    color:  #00475D;
+}
+
+
+
+/* About me */
+
+
+.profile-wrap {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    border-top: 2px solid #00475D;
+    border-bottom: 2px solid #00475D;
+    margin: 2em 4em;
+}
+
+/* Products */
+
+.products-wrap {
+    margin: 2em auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-div {
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 1px black solid;
+    width: 12em;
+    text-align: center;
+}
+
+.profile-img {
+    height: 50vh;
+}
+
+figcaption {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.aboutme-text {
+    padding: 2em;
+    width: 50vw;
+    font-size: 1.2em;
+}

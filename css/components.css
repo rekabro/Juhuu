@@ -1,17 +1,25 @@
+
+.container {
+    background-image: url(/images/backgroundSky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #logo {
     width: 10em;
 }
+
 
 .email-icon {
 position: fixed;
 left: 5em;
 top: 2em;
 font-size: 1.6em;
-color: #002B3E;
+color: #00475D;
 }
 
 .email-icon:hover {
-    color: #00475D;
+    color: #002B3E;
 }
 
 .language-select {
@@ -36,6 +44,12 @@ color: #002B3E;
     font-weight: 700;
 }
 
+.nav-section a:hover {
+    color: #00475D;
+    text-decoration: underline;
+}
+
+
 .quote-section {
     font-family: 'Dancing Script', cursive;
 }
@@ -52,11 +66,13 @@ color: #002B3E;
 
 .footer-email {
     position: fixed;
+    bottom: 2em;
     left: 3em;
 }
 
 .GDPR {
     position: fixed;
+    bottom: 2em;
     right: 3em;
 }
 
